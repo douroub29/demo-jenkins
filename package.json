@@ -1,0 +1,8 @@
+{
+  "name": "demo-jenkins",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p dist && zip -r dist/app.zip index.js package.json",
+    "test": "node test.js"
+  }
+}
